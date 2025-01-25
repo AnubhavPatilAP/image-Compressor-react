@@ -1,0 +1,52 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.app-header {
+  color: #4caf50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.app-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.app-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.image-preview {
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 2px solid #4caf50;
+}
+
+.upload-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.compress-btn,
+.download-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.compress-btn {
+  background-color: #007bff;
+  border: none;
+}
+
+.download-btn {
+  background-color: #28a745;
+  border: none;
+}
